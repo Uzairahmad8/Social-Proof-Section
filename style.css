@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+.justifyBetween {
+  justify-content: space-between;
+}
+
+.largerContainer {
+  max-width: 1100px;
+}
+
+.mainDiv {
+  max-width: 1440px;
+  margin: 127px auto;
+  padding-inline: 165px;
+  font-family: "League Spartan", sans-serif;
+}
+
+.ratingReview {
+  flex-direction: column;
+  gap: 16px;
+  max-width: 540px;
+  width: 100%;
+}
+
+.ratingSection {
+  color: #512051;
+}
+
+.ratingText {
+  max-width: 445px;
+}
+
+.ratingText h1 {
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.ratingText p {
+  font-size: 15px;
+  line-height: 25px;
+  max-width: 380px;
+}
+
+.review {
+  gap: 32px;
+  padding: 20px 32px;
+  background-color: #f7f2f7;
+  max-width: 445px;
+  border-radius: 10px;
+}
+
+.review p {
+  font-weight: bold;
+}
+
+.review1 {
+  align-self: flex-start;
+}
+
+.review2 {
+  align-self: center;
+}
+
+.review3 {
+  align-self: flex-end;
+}
+
+.userReview {
+  max-width: 350px;
+  width: 100%;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #512051;
+  color: #fff;
+}
+
+.userReview p {
+  margin-top: 26px;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.userId {
+  gap: 23px;
+}
+
+.userName h2 {
+  font-size: 13px;
+}
+
+.userName h3 {
+  color: #ee69a4;
+  font-size: 13px;
+  margin-top: 6px;
+  opacity: 0.8;
+}
+
+.testimonialSection {
+  gap: 30px;
+  margin-block: 100px;
+}
