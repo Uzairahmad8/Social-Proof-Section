@@ -1,2 +1,2 @@
 # Social-Proof-Section
-https://socialverif.netlify.app/
+Live Preview: https://socialverif.netlify.app/
